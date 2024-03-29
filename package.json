@@ -1,0 +1,36 @@
+{
+  "name": "bare.css",
+  "version": "1.2.0",
+  "author": "strangebuzz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strangebuzz/barecss.git"
+  },
+  "main": "css/bare.css",
+  "devDependencies": {
+    "less-plugin-clean-css": "^1.5.1",
+    "less": "^4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/strangebuzz/barecss/issues"
+  },
+  "description": "A classless CSS framework.",
+  "files": [
+    "css",
+    "package.json"
+  ],
+  "homepage": "https://github.com/strangebuzz/barecss/issues",
+  "keywords": [
+    "css",
+    "theme",
+    "classless",
+    "web-design",
+    "minimal",
+    "default",
+    "reset"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "less": "mkdir -p css; lessc less/bare.less css/bare.css; lessc --clean-css less/bare.less css/bare.min.css"
+  }
+}

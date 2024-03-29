@@ -9,15 +9,18 @@ BareCSS uses a simple two step process to get started:
 
 #### Easy mode:
 
-- [Download the latest release](https://github.com/longsien/BareCSS/releases/download/v1.1.0/BareCSS-v1.1.0.zip)
+- [Download the latest release](https://github.com/strangebuzz/BareCSS/releases/download/v1.2.0/BareCSS-v1.2.0.zip)
 - Link `bare.min.css` to your HTML file
 
 #### Custom mode:
 
-- [Download the latest release](https://github.com/longsien/BareCSS/releases/download/v1.1.0/BareCSS-v1.1.0.zip)
+- [Download the latest release](https://github.com/strangebuzz/BareCSS/releases/download/v1.2.0/BareCSS-v1.2.0.zip)
 - Edit the `bare.less` file to add/remove components.
 - Compile and link the resulting CSS in your HTML file
 
+    npm install
+    npm run less
+ 
 ## What's included
 
 ```
@@ -52,8 +55,12 @@ BareCSS/
 	└── bare.less
 ```
 
-## Creator
+## Creator(s)
 
 __Long Sien__
 
 - [https://github.com/longsien](https://github.com/longsien)
+
+__ss1978__
+
+- The `package.json` file was copied from the [ss1978/BareCSS](https://github.com/ss1978/BareCSS/blob/master/package.json) fork. 
