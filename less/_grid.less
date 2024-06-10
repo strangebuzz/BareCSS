@@ -19,9 +19,9 @@ grid {
 // columns
 	
 @columns: 12;
-	
+
 .width(@x) {
-	width: 100% / @columns * @x;
+	width: (@x / @columns) * 100%;
 }
 
 // eg: <div col="6"></div>
